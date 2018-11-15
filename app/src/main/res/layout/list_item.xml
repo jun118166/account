@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+    <TextView
+        android:layout_alignParentLeft="true"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="left|center_vertical"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:textSize="12sp"
+        android:text="costTitle"
+        android:id="@+id/tv_title"/>
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textSize="10sp"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/tv_title"
+        android:text="costDate"/>
+
+    <TextView
+        android:id="@+id/tv_cost"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:textSize="15sp"
+        android:layout_marginRight="20dp"
+        android:text="30"/>
+</RelativeLayout>
